@@ -1,0 +1,58 @@
+@import "../../boot.css";
+
+section.about{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--dark-blue);
+    text-align: center;
+}
+
+.header h1{
+    color: var(--white);
+    font-weight: normal;
+    font-size: 30px;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+.right .image{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSLeeig9BjNvT6mS6KBbkfVapwcj6wHwWxlEvlvuxSxw&s");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.left{
+    width: 50%;
+}
+
+.left h1{
+    font-size: 45px;
+    font-weight: normal;
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+}
+
+.left p{
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,11 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+:root{
+    --dark-blue: #00121B;
+    --light-blue: #00FEFD;
+    --white: #f1f1f1;
+}
